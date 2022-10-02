@@ -6,7 +6,7 @@ var Original_content = `
 <p class="description">DESCRIPTION</p>
 </div>`;
 
-fetch("http://localhost:3000/services")
+fetch("https://apicv2102022.herokuapp.com/services")
   .then((response) => response.json())
   .then((json) => {
     json.Sheet1.forEach((element) => {
@@ -27,7 +27,7 @@ var Original_intersts = `
 <p class="description">DESCRIPTION</p>
 </div>`;
 
-fetch("http://localhost:3000/services")
+fetch("https://apicv2102022.herokuapp.com/services")
   .then((response) => response.json())
   .then((json) => {
     json.Sheet2.forEach((element) => {
